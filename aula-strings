@@ -1,0 +1,58 @@
+//joao arthur 
+
+
+//let array
+//console.log('a. ', array)
+//ele definiu uma variavel chamada array , ele usou o console.log para imprimir o nome da sua variavel.array como indefinido
+
+//array = null
+//console.log('b. ', array)
+//ele deu array como nula ,usou o console.log para dar um valor a sua variavel,ou seja,uma variavel definida.
+
+//array = [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
+//console.log('c. ', array.length)
+// c.11
+
+//let i = 0
+//console.log('d. ', array[i])
+//d.3
+//array[i+1] = 19
+//console.log('e. ', array)
+//e. 19
+
+//const valor = array[i+6]
+//console.log('f. ', valor)
+//f.9
+
+//exercicio2
+//SUBI NUM ONIBUS EM MARROCOS,Subi num onibus em morrocos, 29
+//
+// escrita de codigo
+
+let seuNome = prompt("crie seu usoario:");
+let seuEmail = prompt("digite seu email:");
+console.log (`o email, ${seuEmail.trim()}, fui cadastrado com sucesso.seja bem vindo(a),${seuNome}`);
+//2.
+//a
+const comidas = ["churras", "pizza", "strogonof", "miojo", "feijao"];
+console.log(comidas);
+//b
+console.log("essas sao minhas comidas favoritas,"); console.log(comidas[0]); console.log(comidas[1]);console.log(comidas[2]);console.log(comidas[3]);console.log(comidas[4]);
+//c
+let comidass = prompt("qual sua comida favorita?");
+comidas[1] = comidass;
+console.log(comidas);
+//3
+let listaDeTarefas = [];
+ //b
+ listaDeTarefas = [prompt("cite 1 tarefa do seu dia a dia"), prompt("cite 1 tarefa do seu dia a dia"), prompt("cite 1 tarefa do seu dia a dia")];
+
+//c 
+console.log(listaDeTarefas);
+
+//d
+prompt2 = Number(prompt("site um indice de uma tarefa que voce ja fez hj"));
+
+//e
+listaDeTarefas.splice(prompt2, 1);
+console.log(listaDeTarefas);
